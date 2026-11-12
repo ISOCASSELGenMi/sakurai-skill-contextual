@@ -15,6 +15,17 @@ cp -r sakurai-skill/skills/sakurai ~/.claude/skills/
 
 Claude Code では「桜井さんならどうする？」「このゲームの手応えをレビューして」などと頼むと読み込まれます。
 
+## 作例：ハジキ
+
+<img src="examples/hajiki/hajiki_icon.gif" width="160" align="right">
+
+このスキルを読み込んだ AI エージェントが、企画から磨き込み・タイトル・アイコンまで作った Godot 4.6 の一画面アクションです。敵の弾を引きつけるほど強く打ち返せます。
+
+- [unityroom で遊ぶ](https://unityroom.com/games/hajiki)
+- [このゲームでスキルのどこを参照したか（動画番号つき）](examples/hajiki/README.md)
+
+<br clear="right">
+
 ## 中身
 
 ```
