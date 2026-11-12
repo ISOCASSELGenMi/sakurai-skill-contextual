@@ -31,26 +31,6 @@ tools/
 - `SKILL.md` は約2.7万字。読み込みを軽くするため、具体的な数値・手順・作品例は `references/` に分け、必要なカテゴリだけを読む作りです。
 - 各要点には動画の通し番号（古い順の 001〜259）とタイトルを付けているので、元の動画をたどれます。
 
-## 作り方
-
-1. `yt-dlp` でチャンネルの全動画（300本）を一覧にし、中身が重複するまとめ動画41本を除いた259本の日本語自動字幕を取得（257本で取得できました。2本は字幕なし）。
-2. 時刻・タグを捨てて1動画1段落の本文にする（約30万字）。
-3. 25本前後ずつ Claude（Sonnet）に読ませ、1動画につき2〜5行の要点に要約（約16万字）。自動字幕の誤変換は文脈から直させています。
-4. Claude（Opus）が全要点を読んで `SKILL.md` に統合し、要点は `references/` にカテゴリ別に並べ替え。
-
-字幕の本文そのものは著作物なので、このリポジトリには入れていません。手元で作り直すときの手順は `tools/` を参照してください。
-
-```bash
-yt-dlp --extractor-args "youtube:lang=ja" --flat-playlist --print "%(id)s	%(title)s	%(duration)s" \
-  "https://www.youtube.com/channel/UC5CTV3JSdrlo5Pa42QkK8SA/videos" > list.tsv
-grep -v まとめ list.tsv | cut -f1 | sed 's#^#https://www.youtube.com/watch?v=#' > urls.txt
-yt-dlp --extractor-args "youtube:lang=ja" --skip-download --write-auto-subs --sub-langs "ja-orig,ja" \
-  --sub-format srv1 --sleep-subtitles 2 -o "raw/%(id)s.%(ext)s" -a urls.txt
-python tools/to_text.py              # text/ に本文ができる（list.tsv と raw/ を同じ場所に置く）
-# text/ を AI で要約して notes/*.md（"## 番号 タイトル" + 箇条書き）を作り、
-python tools/build_refs.py skills/sakurai/references
-```
-
 ## 既存の Sakurai-Skills との違い
 
 同じチャンネルを元にしたスキルに [kokuren333/Sakurai-Skills](https://github.com/kokuren333/Sakurai-Skills) があります（このリポジトリより先に公開されています）。目的は近いですが、作り方と向きが違います。
