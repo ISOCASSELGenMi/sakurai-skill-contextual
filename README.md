@@ -1,97 +1,83 @@
 # sakurai-skill-contextual
 
-[kociden/sakurai-skill](https://github.com/kociden/sakurai-skill) を基にした、状況に応じた判断を重視する日本語の fork です。元の動画別要約を保存し、参照と判断の流れを変更しています。
+桜井政博のゲーム制作動画を基にした、状況別の判断を支援する非公式・日本語の Agent Skill と Claude プラグインです。[kociden/sakurai-skill](https://github.com/kociden/sakurai-skill) の fork として、元の要約と開発履歴を引き継いでいます。桜井政博氏・有限会社ソラ・Anthropic の公式製品ではありません。
 
-## この fork の変更点
+## この版の内容
 
-- [SKILL.md](skills/sakurai/SKILL.md) は、状況の特定、資料の確認、適用判断、衝突の比較、具体的な提案を案内します。
-- [決定カード](skills/sakurai/decisions/) は 7 枚。適用条件、判断案、適用外、関連する出典、根拠の状態を分けています。
-- 「出典要約」「編集上の解釈」「今回の提案」を区別し、未確認の条件で矛盾を解消したことにしません。
-- 既存の参照 14 ファイル・257 件の要約は変更していません。カードがない話題も参照できます。
-- [14 ケースの評価セット](skills/sakurai/evaluation/cases.md) を追加しました。形式・リンク・引用番号の整合性は確認済みですが、モデルの反復比較による命中率の改善は未測定です。原動画の照合も未実施です。
+[スキル本体](skills/sakurai/SKILL.md) は、問題の特定、資料の選択、適用判断、異なる助言の比較、実行できる提案を案内します。原則に違反したことだけで欠陥と決めません。
 
-スキル名は `sakurai` のままです。既存版がある場合はバックアップし、使う版を選んでください。
+[20 枚の決定カード](skills/sakurai/decisions/) は以下を扱います。
 
-## 元資料について
+- 原型 と PV、映像 の 冒頭、探索 と 正式提案、コンセプト と 仕様変更。
+- 対戦 の ランダム性 と 逆転補正、成長報酬、手応え と テンポ。
+- 初回導入 と 練習場、物語 と 操作、難易度 と 救済、失敗 と リトライ。
+- UI の 世界観 と 分かりやすさ、多言語 と レイアウト、背景 と 視認性。
+- 即決 と 調査、制作範囲 と 品質、総当たり と 重点検証。
+- 体験版 と 本編、構想 の 集中 と 公開発信、駆け引き 以外 の 楽しさ。
 
-YouTube「[桜井政博のゲーム作るには](https://www.youtube.com/@sora_sakurai_jp)」の**全本編257本の字幕**から作った、ゲーム制作の原則をまとめた Agent Skill（Claude Code などで使える `SKILL.md`）です。
+カードには状況、判断案、適用外、出典、根拠の状態を記載。「出典要約」「編集上の解釈」「今回の提案」を分けます。カードのない話題もカテゴリ別資料から扱います。
 
-ゲームの企画・ゲーム性・難易度・ご褒美・導入・操作感（ヒットストップ、ジャンプ、カメラ）・モーション・エフェクト・グラフィック・UI・サウンド・パラメーター調整・デバッグ・チーム運営・企画書・広報を考えるとき、レビューするとき、「手応えがない」「もっさり」と言われて直すときに使います。
+## 根拠と限界
 
-> 非公式のファンメイドです。桜井政博氏・有限会社ソラとは関係ありません。中身は動画の内容を AI が要約したもので、桜井氏の発言そのものではありません。正確な内容は元の動画で確かめてください。
+既存の 14 ファイル・257 件の要約は上流のままです。自動字幕を AI が要約した資料であり、原発言の逐語録ではありません。原動画との照合は未実施。番号はリポジトリ内の通し番号で、公式集数とは限りません。
 
-## まずは動画で
+[31 ケースの評価セット](skills/sakurai/evaluation/cases.md) を同梱しています。ケースの同梱や形式検証は、モデルの命中率向上を実測したことを意味しません。
 
-**[X の紹介ポスト](https://x.com/MvKWt5XpPV36233/status/2120977715864252887)** に、使い方の動画（約100秒）を付けています。このスキルで何ができるか（入れ方・頼み方・手ごたえの足し方・別のAIによるレビュー・レベルデザインの見直しなど）が、作例のゲームと一緒に見られるので、先に見ておくと分かりやすいです。
+## Claude Code のインストールと更新
 
-## 入れ方
+この repo はプラグインと自分で管理する marketplace の両方を含みます。公式ディレクトリへ掲載・承認されたという意味ではありません。
 
 ```bash
-git clone https://github.com/ISOCASSELGenMi/sakurai-skill-contextual.git
-mkdir -p ~/.claude/skills
-cp -r sakurai-skill-contextual/skills/sakurai ~/.claude/skills/
+claude plugin marketplace add ISOCASSELGenMi/sakurai-skill-contextual
+claude plugin install sakurai-contextual@genmi-game-design --scope user
 ```
 
-Codex では、同じフォルダを Codex の skills ディレクトリ（標準は `~/.codex/skills/`）へ配置し、`$sakurai` で指定できます。Windows では既存の同名フォルダがないことを確認してから、次の PowerShell の例を使えます。
+呼び出し例：
 
-```powershell
-git clone https://github.com/ISOCASSELGenMi/sakurai-skill-contextual.git
-$skillBase = if ($env:CODEX_HOME) { Join-Path $env:CODEX_HOME 'skills' } else { Join-Path $env:USERPROFILE '.codex/skills' }
-$skillTarget = Join-Path $skillBase 'sakurai'
-if (Test-Path -LiteralPath $skillTarget) { throw '既存の sakurai をバックアップしてから実行してください。' }
-New-Item -ItemType Directory -Path $skillBase -Force | Out-Null
-Copy-Item -LiteralPath './sakurai-skill-contextual/skills/sakurai' -Destination $skillTarget -Recurse
+```text
+/sakurai-contextual:sakurai 新規 IP の PV 冒頭をレビューして
 ```
 
-Claude Code では「桜井さんならどうする？」「このゲームの手応えをレビューして」などと頼むと読み込まれます。
+更新も同じ fork から行います。この版は `0.2.0` です。
 
-## 上流版の作例：ハジキ
-
-<img src="examples/hajiki/hajiki_icon.gif" width="160" align="right">
-
-上流版のスキルを読み込んだ AI エージェントが、企画から磨き込み・タイトル・アイコンまで作った Godot 4.6 の一画面アクションです。敵の弾を引きつけるほど強く打ち返せます。
-
-- [unityroom で遊ぶ](https://unityroom.com/games/hajiki)
-- [このゲームでスキルのどこを参照したか（動画番号つき）](examples/hajiki/README.md)
-
-<br clear="right">
-
-## 中身
-
+```bash
+claude plugin marketplace update genmi-game-design
+claude plugin update sakurai-contextual@genmi-game-design --scope user
 ```
+
+`claude plugin marketplace list` で取得元が `ISOCASSELGenMi/sakurai-skill-contextual` であることを確認できます。上流は出典であり、この版の更新元ではありません。単独で `~/.claude/skills/sakurai` を配置した版がある場合は二重登録に注意してください。
+
+## Claude のチャット・Cowork
+
+「自訂 / Customize」→「外掛程式 / Plugins」→「新增 / Add」→「新增市集 / Add marketplace」でこの fork の URL を登録し、`sakurai-contextual` をインストールします。
+
+個別スキルとして使う場合は `skills/sakurai/` をルートフォルダ `sakurai/` として ZIP にし、「Skills」→「新增 Skill」からアップロードします。市集版と個別版は同じ環境では片方を選んでください。個別アップロード版は ZIP を再アップロードして更新します。
+
+## Codex
+
+`skills/sakurai/` を Codex の skills ディレクトリ（標準は `~/.codex/skills/`）へ配置し、`$sakurai` を指定できます。既存の改版を更新する場合は、保存内容を確認して同じフォルダへ反映します。このファイル配置によるインストールは Git の remote を持たず、上流へ自動追従する設定ではありません。
+
+## 構成と検証
+
+```text
+.claude-plugin/          plugin.json、marketplace.json、icon.png
 skills/sakurai/
-  SKILL.md            状況確認・資料選択・適用判断・衝突比較の手順
-  decisions/          状況・判断・適用外・出典を記録する決定カード
-  evaluation/         条件を変えた動作確認ケース
-  references/         動画ごとの要点をカテゴリ別に並べたもの（必要なときだけ読む）
-    gameplay.md  planning.md  concepts.md  specs.md  motion.md  effects.md  graphics.md
-    ui.md  sound.md  tech.md  team.md  mindset.md  pr.md  misc.md
-tools/
-  to_text.py          字幕（srv1）を時刻なしの本文にする
-  build_refs.py       要点メモをカテゴリ別の references/ に並べ替える
+  SKILL.md              状況確認と資料選択の入口
+  decisions/            20 枚の決定カードと追加形式
+  evaluation/cases.md   条件を変えた 31 ケース
+  references/           上流の動画別要約 14 ファイル
 ```
 
-- `SKILL.md` は約3千文字。必要なカードと、その根拠となる `references/` の見出しを読みます。
-- 各要点には動画の通し番号（古い順の 001〜259）とタイトルを付けているので、元の動画をたどれます。
+```bash
+claude plugin validate . --strict
+claude plugin validate .claude-plugin/plugin.json --strict
+python tools/validate_contextual.py
+```
 
-## 上流版で紹介されている関連プロジェクト
+新しいカードは [形式](skills/sakurai/decisions/FORMAT.md) に従い、出典を読み、明記された条件と解釈を分けます。主ファイルに入口を加え、条件を変えた評価ケースを追加します。
 
-以下の比較は上流 README の説明を引き継いだもので、比較表の「上流版」は kociden/sakurai-skill を指します。この fork の変更点は冒頭を参照してください。
+## 上流資料と権利
 
-同じチャンネルを元にしたスキルに [kokuren333/Sakurai-Skills](https://github.com/kokuren333/Sakurai-Skills) があります（上流リポジトリより先に公開されています）。目的は近いですが、作り方と向きが違います。
+字幕の採録・要約は上流由来です。[原チャンネル](https://www.youtube.com/@sora_sakurai_jp) と [上流 README](https://github.com/kociden/sakurai-skill) を参照してください。ハジキの作例、画像、既存の字幕処理ツールは上流資料として保持しており、この改版の効果測定ではありません。
 
-| | kokuren333/Sakurai-Skills | 上流版 |
-|---|---|---|
-| 元にした物 | まとめ動画（雑談を除く）を Gemini が要約した中間メモ。README によると動画との照合はしていない | 全本編257本の自動字幕を直接取得して要約 |
-| 範囲 | 原則177件＋横断原則17件 | 動画257本すべて（雑談回も `misc.md` に収録） |
-| 言語 | 英語が中心（日本語 README あり） | 日本語 |
-| 形 | 24個のタスク別スキル、ルーター、チェックリスト、原則グラフ、lint ルール、テストまで揃った体系的な作り | スキル1つ（SKILL.md＋参照14ファイル）の軽い作り |
-| 出典のたどり方 | SOURCE / GENERALIZED / AGENT の3層で、元メモの記述と解釈を分けて記録 | 要点ごとに動画番号とタイトル |
-| 向いている使い方 | 大きなプロジェクトで、工程ごとのレビューや点検を体系的に回す | 普段の会話で手軽に読み込み、具体的な数値・手順・作品例まで引く |
-
-どちらも AI による要約で、人の目で全部を照合したものではありません。このリポジトリは元が自動字幕なので、聞き取りの誤りが要約に残っている可能性があります。
-
-## 注意
-
-- 原則は桜井氏の大作・アクション寄りの経験に基づくので、ジャンルや規模に合わない所はそのまま当てはめず、狙い（遊ぶ人を楽しませること）から読み替える前提で書いています。
-- 誤りや抜けを見つけたら issue で教えてください。
+[LICENSE](LICENSE) に上流の明示的なライセンスを確認できていないことを記載しています。この fork は元の文章・画像等に新たな利用許諾を付与しません。公式ディレクトリへの登録には、形式以外に権利関係・審査等の確認が別途必要です。

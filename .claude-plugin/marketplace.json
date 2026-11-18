@@ -1,0 +1,17 @@
+{
+  "name": "genmi-game-design",
+  "owner": {
+    "name": "ISOCASSELGenMi"
+  },
+  "metadata": {
+    "description": "ゲーム制作の状況別判断を支援する日本語プラグイン。"
+  },
+  "plugins": [
+    {
+      "name": "sakurai-contextual",
+      "source": "./",
+      "description": "桜井政博のゲーム制作動画の要約を、状況・判断・適用外・出典で参照する非公式の日本語スキル。",
+      "category": "design"
+    }
+  ]
+}

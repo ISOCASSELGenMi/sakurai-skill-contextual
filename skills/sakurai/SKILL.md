@@ -36,6 +36,14 @@ description: 桜井政博のゲーム制作動画を基に、ゲームの企画�
 | 対戦のランダム性・逆転補正 | [体験と調整](decisions/player-experience.md)：`randomness-and-handicap` |
 | 成長報酬と対戦の公平性 | [体験と調整](decisions/player-experience.md)：`progression-rewards` |
 | 手応えを強めるか待ち時間を減らすか | [体験と調整](decisions/player-experience.md)：`impact-and-tempo` |
+| 初回導入と任意の練習場 | [導入と難易度](decisions/onboarding-difficulty.md)：`tutorial-or-practice` |
+| 物語と操作開始の配分 | [導入と難易度](decisions/onboarding-difficulty.md)：`story-or-control` |
+| 難易度と救済／失敗とリトライ | [導入と難易度](decisions/onboarding-difficulty.md)：`difficulty-or-assistance`、`retry-or-consequence` |
+| UI の世界観と分かりやすさ | [UI と視認性](decisions/ui-visual.md)：`style-or-clarity` |
+| 翻訳と画面サイズ／背景と対象の区別 | [UI と視認性](decisions/ui-visual.md)：`localization-or-layout`、`detail-or-readability` |
+| 即決と調査／要素の削減／検証の配分 | [制作運営](decisions/production.md)：`decide-or-investigate`、`scope-or-quality`、`exhaustive-or-targeted` |
+| 体験版と本編／企画の集中と公開発信 | [体験版と発信](decisions/distribution.md)：`demo-or-main`、`private-idea-or-public-update` |
+| 駆け引き以外の楽しさ | [ジャンルと目的](decisions/genre-purpose.md)：`risk-or-other-appeal` |
 
 ## カードがない話題の参照先
 
@@ -58,4 +66,4 @@ description: 桜井政博のゲーム制作動画を基に、ゲームの企画�
 
 ## カードを追加・修正するとき
 
-[カード形式](decisions/FORMAT.md) を使い、出典の本文を読み、条件が明記か解釈かを分ける。関連・対立するカードをつなぎ、索引にも入口を加える。全動画を機械的にカード化するより、実際に誤用された判断を優先する。動作の確認には [検証ケース](evaluation/cases.md) を使う。
+[カード形式](decisions/FORMAT.md) を使い、出典の本文を読み、条件が明記か解釈かを分ける。関連・対立するカードをつなぎ、索引にも入口を加える。全動画を機械的にカード化するより、実際に誤用された判断を優先する。動作の確認には [検証ケース](evaluation/cases.md) を使う。通常の助言では評価用の判定基準を読む必要はない。

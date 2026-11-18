@@ -1,0 +1,16 @@
+{
+  "name": "sakurai-contextual",
+  "version": "0.2.0",
+  "description": "桜井政博のゲーム制作動画の要約を、状況・判断・適用外・出典で参照する非公式の日本語スキル。",
+  "author": {
+    "name": "ISOCASSELGenMi"
+  },
+  "homepage": "https://github.com/ISOCASSELGenMi/sakurai-skill-contextual",
+  "repository": "https://github.com/ISOCASSELGenMi/sakurai-skill-contextual",
+  "keywords": [
+    "game-design",
+    "gamedev",
+    "sakurai",
+    "japanese"
+  ]
+}
