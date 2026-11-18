@@ -38,7 +38,7 @@ claude plugin install sakurai-contextual@genmi-game-design --scope user
 /sakurai-contextual:sakurai 新規 IP の PV 冒頭をレビューして
 ```
 
-更新も同じ fork から行います。この版は `0.2.0` です。
+更新も同じ fork から行います。この版は `0.2.1` です。
 
 ```bash
 claude plugin marketplace update genmi-game-design

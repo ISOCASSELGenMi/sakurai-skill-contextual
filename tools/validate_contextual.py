@@ -16,7 +16,9 @@ def validate(root):
     if {p.name for p in refs} != set(hashes):
         errors.append('参照ファイルの構成が元版と異なります')
     for path in refs:
-        if hashlib.sha256(path.read_bytes()).hexdigest() != hashes.get(path.name):
+        # Git の autocrlf による改行差を除き、内容の変更を検出する。
+        canonical = path.read_bytes().replace(b'\r\n', b'\n')
+        if hashlib.sha256(canonical).hexdigest() != hashes.get(path.name):
             errors.append(f'元の参照資料が変わっています: {path.name}')
         for num, title in re.findall(r'^## (\d{3}) (.+)$', path.read_text(encoding='utf-8'), re.M):
             if num in headings:
