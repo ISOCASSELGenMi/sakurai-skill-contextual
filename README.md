@@ -6,14 +6,21 @@
 
 [スキル本体](skills/sakurai/SKILL.md) は、問題の特定、資料の選択、適用判断、異なる助言の比較、実行できる提案を案内します。原則に違反したことだけで欠陥と決めません。
 
-[20 枚の決定カード](skills/sakurai/decisions/) は以下を扱います。
+[64 枚の決定カード](skills/sakurai/decisions/) は以下を扱います。
 
 - 原型 と PV、映像 の 冒頭、探索 と 正式提案、コンセプト と 仕様変更。
 - 対戦 の ランダム性 と 逆転補正、成長報酬、手応え と テンポ。
 - 初回導入 と 練習場、物語 と 操作、難易度 と 救済、失敗 と リトライ。
 - UI の 世界観 と 分かりやすさ、多言語 と レイアウト、背景 と 視認性。
 - 即決 と 調査、制作範囲 と 品質、総当たり と 重点検証。
+- ジャンプ と 崖、カメラ と 地図、操作設定、時間 と 表示遅延。
+- 動作 の 応答 と 溜め、ポーズ、補間、判定、リグ と 発注。
+- 特殊効果 の 視認性 と 負荷、美術 の 統一、素材 と 最終出力。
+- 音 の 優先度、誇張 と 写実、BGM と 原曲、発注 と 参考。
+- 数値 の 外出し、開発用ツール、共同編集、役割、情報共有、観察。
 - 体験版 と 本編、構想 の 集中 と 公開発信、駆け引き 以外 の 楽しさ。
+
+[全カード索引](skills/sakurai/decisions/INDEX.md) と [全 257 件の分類](skills/sakurai/decisions/COVERAGE.md) を用意しています。220 件はカード本文の出典、37 件は固有事例・歴史・雑談等として保存する背景資料です。
 
 カードには状況、判断案、適用外、出典、根拠の状態を記載。「出典要約」「編集上の解釈」「今回の提案」を分けます。カードのない話題もカテゴリ別資料から扱います。
 
@@ -21,7 +28,7 @@
 
 既存の 14 ファイル・257 件の要約は上流のままです。自動字幕を AI が要約した資料であり、原発言の逐語録ではありません。原動画との照合は未実施。番号はリポジトリ内の通し番号で、公式集数とは限りません。
 
-[31 ケースの評価セット](skills/sakurai/evaluation/cases.md) を同梱しています。ケースの同梱や形式検証は、モデルの命中率向上を実測したことを意味しません。
+[77 ケース（123 個の独立入力）の評価セット](skills/sakurai/evaluation/cases.md) を同梱しています。ケースの同梱や形式検証は、モデルの命中率向上を実測したことを意味しません。
 
 ## Claude Code のインストールと更新
 
@@ -38,7 +45,7 @@ claude plugin install sakurai-contextual@genmi-game-design --scope user
 /sakurai-contextual:sakurai 新規 IP の PV 冒頭をレビューして
 ```
 
-更新も同じ fork から行います。この版は `0.2.1` です。
+更新も同じ fork から行います。この版は `0.3.0` です。
 
 ```bash
 claude plugin marketplace update genmi-game-design
@@ -63,8 +70,8 @@ claude plugin update sakurai-contextual@genmi-game-design --scope user
 .claude-plugin/          plugin.json、marketplace.json、icon.png
 skills/sakurai/
   SKILL.md              状況確認と資料選択の入口
-  decisions/            20 枚の決定カードと追加形式
-  evaluation/cases.md   条件を変えた 31 ケース
+  decisions/            64 枚の決定カードと追加形式
+  evaluation/cases.md   条件を変えた 77 ケース（123 個の独立入力）
   references/           上流の動画別要約 14 ファイル
 ```
 

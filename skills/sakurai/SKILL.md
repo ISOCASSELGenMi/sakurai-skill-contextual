@@ -26,24 +26,28 @@ description: 桜井政博のゲーム制作動画を基に、ゲームの企画�
 
 ## 決定カードへの入口
 
-各カードの「出典要約」と「編集上の解釈」を分けて読む。例外が書かれていないことは、例外が存在しない証拠にはならない。
+現在 64 枚。[問いと ID の索引](decisions/INDEX.md) で探すか、下表から該当ファイルを読む。複数の分野にまたがる相談では、必要なカードを併読する。例外が書かれていないことは、例外が存在しない証拠にはならない。
 
-| 決めたいこと | 読むカード |
+| 決めたいこと | 読む資料 |
 |---|---|
-| 原型と PV のどちらに時間を使うか／PV の冒頭 | [開発と広報](decisions/development-pr.md)：`prototype-or-pv`、`show-gameplay` |
-| 案を広げるか一案に絞るか／没案の記録 | [企画と変更](decisions/planning-change.md)：`explore-or-commit` |
-| コンセプトを維持するか仕様を変更するか | [企画と変更](decisions/planning-change.md)：`concept-or-change` |
-| 対戦のランダム性・逆転補正 | [体験と調整](decisions/player-experience.md)：`randomness-and-handicap` |
-| 成長報酬と対戦の公平性 | [体験と調整](decisions/player-experience.md)：`progression-rewards` |
-| 手応えを強めるか待ち時間を減らすか | [体験と調整](decisions/player-experience.md)：`impact-and-tempo` |
-| 初回導入と任意の練習場 | [導入と難易度](decisions/onboarding-difficulty.md)：`tutorial-or-practice` |
-| 物語と操作開始の配分 | [導入と難易度](decisions/onboarding-difficulty.md)：`story-or-control` |
-| 難易度と救済／失敗とリトライ | [導入と難易度](decisions/onboarding-difficulty.md)：`difficulty-or-assistance`、`retry-or-consequence` |
-| UI の世界観と分かりやすさ | [UI と視認性](decisions/ui-visual.md)：`style-or-clarity` |
-| 翻訳と画面サイズ／背景と対象の区別 | [UI と視認性](decisions/ui-visual.md)：`localization-or-layout`、`detail-or-readability` |
-| 即決と調査／要素の削減／検証の配分 | [制作運営](decisions/production.md)：`decide-or-investigate`、`scope-or-quality`、`exhaustive-or-targeted` |
-| 体験版と本編／企画の集中と公開発信 | [体験版と発信](decisions/distribution.md)：`demo-or-main`、`private-idea-or-public-update` |
-| 駆け引き以外の楽しさ | [ジャンルと目的](decisions/genre-purpose.md)：`risk-or-other-appeal` |
+| 企画・方針・案の選択 | [企画・方針・案の選択](decisions/planning-change.md) |
+| 原型と PV／宣伝映像 | [原型と PV／宣伝映像](decisions/development-pr.md) |
+| ゲーム性と別の楽しさ | [ゲーム性と別の楽しさ](decisions/genre-purpose.md) |
+| 駆け引き、成長、個性、CPU、攻略、ランキング | [駆け引き](decisions/systems.md) |
+| 導入、物語、難易度、再挑戦 | [導入](decisions/onboarding-difficulty.md) |
+| 対戦補正、報酬、手応えとテンポ | [対戦補正](decisions/player-experience.md) |
+| ジャンプ、崖、カメラ、操作設定、フレーム | [ジャンプ](decisions/controls.md) |
+| 攻撃の応答、ポーズ、補間、判定 | [攻撃の応答](decisions/motion-decisions.md) |
+| ヒットマーク、振動、フラッシュ、粒子 | [ヒットマーク](decisions/effects-decisions.md) |
+| 画風、材質、スケール、最終出力、監修 | [画風](decisions/art-decisions.md) |
+| UI、翻訳、視認性 | [UI](decisions/ui-visual.md) |
+| 音の優先度、質感、BGM、発注 | [音の優先度](decisions/sound-decisions.md) |
+| 数値調整、デバッグ用ツール、共同編集 | [数値調整](decisions/technical-decisions.md) |
+| 即決、削減、検証範囲 | [即決](decisions/production.md) |
+| 責任者、共有、テストプレイ | [責任者](decisions/team-decisions.md) |
+| 体験版、構想と公開の時期 | [体験版](decisions/distribution.md) |
+| 市場、プレゼン、試作、継続作業、規則 | [市場](decisions/planning-practice.md) |
+| 動作の発注、物語との整合、読み込み、説明 | [動作の発注](decisions/edge-decisions.md) |
 
 ## カードがない話題の参照先
 
@@ -66,4 +70,4 @@ description: 桜井政博のゲーム制作動画を基に、ゲームの企画�
 
 ## カードを追加・修正するとき
 
-[カード形式](decisions/FORMAT.md) を使い、出典の本文を読み、条件が明記か解釈かを分ける。関連・対立するカードをつなぎ、索引にも入口を加える。全動画を機械的にカード化するより、実際に誤用された判断を優先する。動作の確認には [検証ケース](evaluation/cases.md) を使う。通常の助言では評価用の判定基準を読む必要はない。
+[カード形式](decisions/FORMAT.md) を使い、出典の本文を読み、条件が明記か解釈かを分ける。関連・対立するカードをつなぎ、索引にも入口を加える。全動画を機械的にカード化するより、実際に誤用された判断を優先する。動作の確認には [検証ケース](evaluation/cases.md) と [追加の条件対照ケース](evaluation/expanded-cases.md) を使う。通常の助言では評価用の判定基準を読む必要はない。

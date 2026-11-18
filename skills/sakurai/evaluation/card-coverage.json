@@ -1,0 +1,205 @@
+{
+  "prototype-or-pv": [
+    "A1",
+    "A2",
+    "A3"
+  ],
+  "show-gameplay": [
+    "P046"
+  ],
+  "explore-or-commit": [
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "concept-or-change": [
+    "P045"
+  ],
+  "randomness-and-handicap": [
+    "C1",
+    "C2"
+  ],
+  "progression-rewards": [
+    "F1",
+    "F2"
+  ],
+  "impact-and-tempo": [
+    "D1",
+    "D2"
+  ],
+  "tutorial-or-practice": [
+    "H1",
+    "H2"
+  ],
+  "story-or-control": [
+    "I1",
+    "I2"
+  ],
+  "difficulty-or-assistance": [
+    "J1"
+  ],
+  "retry-or-consequence": [
+    "J2"
+  ],
+  "style-or-clarity": [
+    "K1"
+  ],
+  "localization-or-layout": [
+    "K2"
+  ],
+  "detail-or-readability": [
+    "K3"
+  ],
+  "decide-or-investigate": [
+    "L1",
+    "L2"
+  ],
+  "scope-or-quality": [
+    "L3"
+  ],
+  "exhaustive-or-targeted": [
+    "L4"
+  ],
+  "demo-or-main": [
+    "M1"
+  ],
+  "private-idea-or-public-update": [
+    "M2",
+    "M3"
+  ],
+  "risk-or-other-appeal": [
+    "N1"
+  ],
+  "risk-reward-proximity": [
+    "P001"
+  ],
+  "reward-feedback": [
+    "P002"
+  ],
+  "goal-and-pacing": [
+    "P003"
+  ],
+  "asymmetry-or-balance": [
+    "P004"
+  ],
+  "ai-fairness": [
+    "P005"
+  ],
+  "customization-preview": [
+    "P006"
+  ],
+  "guided-or-free-route": [
+    "P007"
+  ],
+  "original-or-familiar": [
+    "P008"
+  ],
+  "sequel-or-new": [
+    "P009"
+  ],
+  "ranking-or-belonging": [
+    "P010"
+  ],
+  "exploit-or-bug": [
+    "P011"
+  ],
+  "jump-or-commitment": [
+    "P012"
+  ],
+  "camera-or-navigation": [
+    "P013"
+  ],
+  "standard-or-custom-input": [
+    "P014"
+  ],
+  "frame-rate-or-simulation": [
+    "P015"
+  ],
+  "instant-response-or-windup": [
+    "P016"
+  ],
+  "pose-or-anatomy": [
+    "P017"
+  ],
+  "blend-or-snap": [
+    "P018"
+  ],
+  "hitbox-or-image": [
+    "P019"
+  ],
+  "effect-impact-or-visibility": [
+    "P020"
+  ],
+  "shake-or-comfort": [
+    "P021"
+  ],
+  "particles-or-authored-shape": [
+    "P022"
+  ],
+  "coherent-art-style": [
+    "P023"
+  ],
+  "material-or-final-image": [
+    "P024"
+  ],
+  "visual-direction-or-rework": [
+    "P025"
+  ],
+  "sound-priority-or-density": [
+    "P026"
+  ],
+  "sound-realism-or-impact": [
+    "P027"
+  ],
+  "music-tempo-or-identity": [
+    "P028"
+  ],
+  "sound-reference-or-fixation": [
+    "P029"
+  ],
+  "tuning-or-hardcode": [
+    "P030"
+  ],
+  "debug-tools-or-content": [
+    "P031"
+  ],
+  "lock-or-merge": [
+    "P032"
+  ],
+  "authority-or-vote": [
+    "P033"
+  ],
+  "communication-or-focus": [
+    "P034"
+  ],
+  "playtest-evidence": [
+    "P035"
+  ],
+  "market-data-or-concept": [
+    "P036"
+  ],
+  "presentation-or-catalog": [
+    "P037"
+  ],
+  "start-or-prepare": [
+    "P038"
+  ],
+  "effort-or-sustainability": [
+    "P039"
+  ],
+  "standard-or-exception": [
+    "P040"
+  ],
+  "animation-spec-or-freedom": [
+    "P041"
+  ],
+  "scenario-or-play-consistency": [
+    "P042"
+  ],
+  "loading-or-feedback": [
+    "P043"
+  ],
+  "label-or-symbol": [
+    "P044"
+  ]
+}

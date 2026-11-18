@@ -1,5 +1,6 @@
 # ジャンルと楽しさの目的
 
+<a id="risk-or-other-appeal"></a>
 ## risk-or-other-appeal：駆け引きを増やすか、別の楽しさを伸ばすか
 
 - 問題：「面白くない」という評価を、何の楽しさが足りないかに分解する。
@@ -7,5 +8,7 @@
 - 出典要約：[gameplay.md](../references/gameplay.md) の 006「リスクとリターン」は、ゲーム性を面白さの一側面とする。026「ゲーム性以外の面白さ」は物語や操作等を挙げ、201「作業ゲームを面白くするには」は、駆け引きがなくても面白い作品と進展・効率化の循環を説明する。
 - 判断案（編集上の解釈）：まず誰が何を楽しむ作品かを確認する。駆け引きが核なら危険と見返りを点検し、作業や物語が核なら進展、表現、期待、操作の快適さを調べる。
 - 適用外・導けないこと：ノベルや癒やし系作品に、駆け引きの不足だけを理由として敵・戦闘・失敗ペナルティを追加しない。作業ゲームにも出典の特定の成長ループを無条件で必須化しない。
-- 関連・対立：006・026・201。物語の導入は `story-or-control`、報酬は `progression-rewards`。
+- 補足出典要約：ストレスと解消、敵でなくてもよい障害、競争以外も含む遊びの分解という異なる見方がある。どれも全作品に同じ障害を足す規則にはしない。
+  - 出典：[gameplay.md](../references/gameplay.md) の 009「ギュッとしてパッと解消」、[gameplay.md](../references/gameplay.md) の 071「はたして敵は必要なのか」、[gameplay.md](../references/gameplay.md) の 176「遊びって、何？」。
+- 関連・対立：006・026・201。物語の導入は [story-or-control](onboarding-difficulty.md#story-or-control)、報酬は [progression-rewards](player-experience.md#progression-rewards)。
 - 根拠の状態：AI 要約のみ・原動画未照合。診断と適用範囲の整理は編集上の解釈。

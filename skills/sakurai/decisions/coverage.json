@@ -1,0 +1,2525 @@
+[
+  {
+    "number": "001",
+    "source": "misc.md",
+    "title": "このチャンネルについて",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "チャンネルの紹介と目的。制作順序の指示ではない。"
+  },
+  {
+    "number": "003",
+    "source": "specs.md",
+    "title": "大事なところはストップ！【仕様】",
+    "status": "カード出典",
+    "cards": [
+      "impact-and-tempo"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "004",
+    "source": "concepts.md",
+    "title": "星のカービィ【企画コンセプト】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "初心者向けの作品固有事例。難易度と救済を考える際の追加事例として読む。"
+  },
+  {
+    "number": "005",
+    "source": "planning.md",
+    "title": "フレームはコマ数【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "frame-rate-or-simulation"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "006",
+    "source": "gameplay.md",
+    "title": "リスクとリターン【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "risk-or-other-appeal",
+      "risk-reward-proximity"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "007",
+    "source": "mindset.md",
+    "title": "遊びの仕事は遊びじゃない【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "effort-or-sustainability"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "008",
+    "source": "misc.md",
+    "title": "遅延を撲滅してほしい【雑談】",
+    "status": "カード出典",
+    "cards": [
+      "frame-rate-or-simulation"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "009",
+    "source": "gameplay.md",
+    "title": "ギュッとしてパッと解消【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "risk-or-other-appeal"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "010",
+    "source": "graphics.md",
+    "title": "素材を描かず、光を描く【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "material-or-final-image"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "011",
+    "source": "concepts.md",
+    "title": "星のカービィ 夢の泉の物語【企画コンセプト】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "初心者と上級者をコピー能力で分けた事例。全ジャンルへの方式指定にはしない。"
+  },
+  {
+    "number": "012",
+    "source": "mindset.md",
+    "title": "プレゼンはスピード【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "presentation-or-catalog"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "013",
+    "source": "misc.md",
+    "title": "ゲームに与える賞【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "賞の目的についての見解。設計改善の優劣を決める一般則にはしない。"
+  },
+  {
+    "number": "014",
+    "source": "motion.md",
+    "title": "モーション指定の仕方【モーション】",
+    "status": "カード出典",
+    "cards": [
+      "animation-spec-or-freedom"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "015",
+    "source": "gameplay.md",
+    "title": "RPGのゲーム性【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "risk-reward-proximity"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "016",
+    "source": "effects.md",
+    "title": "モヤっとさせるな【エフェクト】",
+    "status": "カード出典",
+    "cards": [
+      "effect-impact-or-visibility"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "017",
+    "source": "planning.md",
+    "title": "とにかくゲームさせてみて【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "story-or-control"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "018",
+    "source": "ui.md",
+    "title": "わかりやすさとスタイル性【UI】",
+    "status": "カード出典",
+    "cards": [
+      "style-or-clarity"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "019",
+    "source": "specs.md",
+    "title": "物理ボタンに重たさを感じさせる【仕様】",
+    "status": "カード出典",
+    "cards": [
+      "jump-or-commitment"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "020",
+    "source": "concepts.md",
+    "title": "星のカービィ スーパーデラックス【企画コンセプト】",
+    "status": "カード出典",
+    "cards": [
+      "camera-or-navigation"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "021",
+    "source": "mindset.md",
+    "title": "お客さんに説明できるの？【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "effort-or-sustainability"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "022",
+    "source": "tech.md",
+    "title": "ファイル名は合理的に【プログラム・テクニカル】",
+    "status": "カード出典",
+    "cards": [
+      "lock-or-merge"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "023",
+    "source": "planning.md",
+    "title": "目の前に吊られたごほうび【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "reward-feedback"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "024",
+    "source": "misc.md",
+    "title": "ゲームしながら運動のすすめ【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "個人の運動習慣。ゲーム制作の必須工程や健康指導へ変換しない。"
+  },
+  {
+    "number": "025",
+    "source": "sound.md",
+    "title": "ゲームに合ったテンポ感【サウンド】",
+    "status": "カード出典",
+    "cards": [
+      "music-tempo-or-identity"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "026",
+    "source": "gameplay.md",
+    "title": "ゲーム性以外の面白さ【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "risk-or-other-appeal",
+      "story-or-control"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "027",
+    "source": "concepts.md",
+    "title": "大乱闘スマッシュブラザーズ【企画コンセプト】",
+    "status": "カード出典",
+    "cards": [
+      "prototype-or-pv"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "028",
+    "source": "motion.md",
+    "title": "やり過ぎてちょうどよい【モーション】",
+    "status": "カード出典",
+    "cards": [
+      "pose-or-anatomy"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "029",
+    "source": "mindset.md",
+    "title": "仕様を変えること【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "explore-or-commit",
+      "concept-or-change"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "030",
+    "source": "graphics.md",
+    "title": "判定のあるものを強調する【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "detail-or-readability"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "031",
+    "source": "misc.md",
+    "title": "ゲームソフトの価値【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "当時の価格と価値についての見解。現在の価格設定や販売予測には用いない。"
+  },
+  {
+    "number": "032",
+    "source": "sound.md",
+    "title": "重要度で効果音バランスを取る【サウンド】",
+    "status": "カード出典",
+    "cards": [
+      "sound-priority-or-density"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "033",
+    "source": "ui.md",
+    "title": "文字の大きさ【UI】",
+    "status": "カード出典",
+    "cards": [
+      "localization-or-layout"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "034",
+    "source": "planning.md",
+    "title": "ゲーム作りで食っていくには【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "start-or-prepare"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "035",
+    "source": "effects.md",
+    "title": "キャラクターを際立たせる【エフェクト】",
+    "status": "カード出典",
+    "cards": [
+      "effect-impact-or-visibility"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "036",
+    "source": "motion.md",
+    "title": "攻撃モーションの内訳【モーション】",
+    "status": "カード出典",
+    "cards": [
+      "instant-response-or-windup"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "037",
+    "source": "specs.md",
+    "title": "ジャンプのしくみ【仕様】",
+    "status": "カード出典",
+    "cards": [
+      "jump-or-commitment"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "038",
+    "source": "mindset.md",
+    "title": "企画書の書き方【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "presentation-or-catalog"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "039",
+    "source": "misc.md",
+    "title": "愛猫ふくらし【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "愛猫についての雑談。具体的な制作判断の材料が要約にない。"
+  },
+  {
+    "number": "040",
+    "source": "concepts.md",
+    "title": "大乱闘スマッシュブラザーズDX【企画コンセプト】",
+    "status": "カード出典",
+    "cards": [
+      "sequel-or-new"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "041",
+    "source": "gameplay.md",
+    "title": "悪魔の窯【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "difficulty-or-assistance"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "042",
+    "source": "planning.md",
+    "title": "世界の窓はとっても狭い【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "camera-or-navigation"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "043",
+    "source": "team.md",
+    "title": "チームの情報共有【チーム運営】",
+    "status": "カード出典",
+    "cards": [
+      "communication-or-focus"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "044",
+    "source": "graphics.md",
+    "title": "大事と小事を見分ける【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "visual-direction-or-rework",
+      "particles-or-authored-shape"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "045",
+    "source": "misc.md",
+    "title": "昔は昔 いまはいま【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "時代で評価軸が変わるという見解。特定方式の採否を確定しない。"
+  },
+  {
+    "number": "046",
+    "source": "tech.md",
+    "title": "調整をしやすくする仕組み【プログラム・テクニカル】",
+    "status": "カード出典",
+    "cards": [
+      "tuning-or-hardcode"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "047",
+    "source": "specs.md",
+    "title": "8つのヒットストップ仕様【仕様】",
+    "status": "カード出典",
+    "cards": [
+      "hitbox-or-image",
+      "impact-and-tempo"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "048",
+    "source": "gameplay.md",
+    "title": "ズルを許す【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "exploit-or-bug"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "049",
+    "source": "motion.md",
+    "title": "かまえは瞬時に極端に【モーション】",
+    "status": "カード出典",
+    "cards": [
+      "instant-response-or-windup"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "050",
+    "source": "team.md",
+    "title": "ゲームを作る職種【チーム運営】",
+    "status": "カード出典",
+    "cards": [
+      "authority-or-vote"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "051",
+    "source": "planning.md",
+    "title": "ワンボタンでできること【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "standard-or-custom-input"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "052",
+    "source": "mindset.md",
+    "title": "企画は強火でザッと仕上げる【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "presentation-or-catalog"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "053",
+    "source": "misc.md",
+    "title": "有限会社ソラ【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "会社についての雑談。具体的な制作判断の材料が要約にない。"
+  },
+  {
+    "number": "054",
+    "source": "sound.md",
+    "title": "いろんな環境で聞き比べ【サウンド】",
+    "status": "カード出典",
+    "cards": [
+      "sound-realism-or-impact",
+      "sound-reference-or-fixation"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "055",
+    "source": "ui.md",
+    "title": "いまどきの親切設計【UI】",
+    "status": "カード出典",
+    "cards": [
+      "shake-or-comfort"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "056",
+    "source": "effects.md",
+    "title": "閃光､爆発､残煙【エフェクト】",
+    "status": "カード出典",
+    "cards": [
+      "effect-impact-or-visibility"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "057",
+    "source": "planning.md",
+    "title": "分解､考察､再構築【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "original-or-familiar"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "058",
+    "source": "misc.md",
+    "title": "ダウンロード派？ パッケージ派？【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "販売形態の好みの雑談。配布方式の一般的優劣を導かない。"
+  },
+  {
+    "number": "059",
+    "source": "concepts.md",
+    "title": "カービィのエアライド【企画コンセプト】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "エアライドの固有の制約と完成経緯。短期制作期間を他案件の見積もりにしない。"
+  },
+  {
+    "number": "060",
+    "source": "team.md",
+    "title": "思ったことはすぐに言え【チーム運営】",
+    "status": "カード出典",
+    "cards": [
+      "communication-or-focus"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "061",
+    "source": "specs.md",
+    "title": "注視点をくっつけない【仕様】",
+    "status": "カード出典",
+    "cards": [
+      "camera-or-navigation"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "062",
+    "source": "motion.md",
+    "title": "攻撃ポーズ【モーション】",
+    "status": "カード出典",
+    "cards": [
+      "pose-or-anatomy"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "063",
+    "source": "graphics.md",
+    "title": "スケール感は正しく合わせる【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "material-or-final-image"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "064",
+    "source": "planning.md",
+    "title": "良いおつかい、悪いおつかい【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "guided-or-free-route"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "065",
+    "source": "gameplay.md",
+    "title": "浮遊感は落ちてこそ生まれる【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "risk-reward-proximity"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "066",
+    "source": "misc.md",
+    "title": "ソラの在宅支援策【雑談】",
+    "status": "カード出典",
+    "cards": [
+      "communication-or-focus"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "067",
+    "source": "mindset.md",
+    "title": "苦労は忘れる､作品は残る【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "effort-or-sustainability"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "068",
+    "source": "misc.md",
+    "title": "パラメーターを【】でくくる【プログラム・テクニカル】",
+    "status": "カード出典",
+    "cards": [
+      "tuning-or-hardcode"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "069",
+    "source": "sound.md",
+    "title": "環境音楽としてのゲーム音楽【サウンド】",
+    "status": "カード出典",
+    "cards": [
+      "sound-priority-or-density",
+      "music-tempo-or-identity"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "070",
+    "source": "mindset.md",
+    "title": "ディレクターは”個”【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "authority-or-vote"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "071",
+    "source": "gameplay.md",
+    "title": "はたして敵は必要なのか【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "risk-or-other-appeal"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "072",
+    "source": "misc.md",
+    "title": "過去との競争【雑談】",
+    "status": "カード出典",
+    "cards": [
+      "original-or-familiar"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "073",
+    "source": "specs.md",
+    "title": "遅さは罪【仕様】",
+    "status": "カード出典",
+    "cards": [
+      "loading-or-feedback",
+      "impact-and-tempo"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "074",
+    "source": "concepts.md",
+    "title": "メテオス【企画コンセプト】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "メテオスの企画と性能制約の事例。パズル全般への固定仕様にしない。"
+  },
+  {
+    "number": "075",
+    "source": "gameplay.md",
+    "title": "ごほうび要素はまっ先に【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "reward-feedback"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "076",
+    "source": "planning.md",
+    "title": "フレームを計れるようになれ！【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "frame-rate-or-simulation"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "077",
+    "source": "motion.md",
+    "title": "フォロースルーで印象が決まる【モーション】",
+    "status": "カード出典",
+    "cards": [
+      "instant-response-or-windup"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "078",
+    "source": "ui.md",
+    "title": "ローディング画面【UI】",
+    "status": "カード出典",
+    "cards": [
+      "loading-or-feedback"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "079",
+    "source": "effects.md",
+    "title": "エフェクトをスローで見てみよう【エフェクト】",
+    "status": "カード出典",
+    "cards": [
+      "effect-impact-or-visibility",
+      "debug-tools-or-content"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "080",
+    "source": "pr.md",
+    "title": "広報はかけ算【広報】",
+    "status": "カード出典",
+    "cards": [
+      "prototype-or-pv",
+      "demo-or-main"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "081",
+    "source": "misc.md",
+    "title": "ゲームと目の疲れ【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "目の負担についての雑談。健康上の助言へ一般化しない。"
+  },
+  {
+    "number": "082",
+    "source": "gameplay.md",
+    "title": "対戦は複雑になるもの?【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "asymmetry-or-balance"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "083",
+    "source": "mindset.md",
+    "title": "とにかくやれ!!【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "start-or-prepare"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "084",
+    "source": "specs.md",
+    "title": "速度の単位【仕様】",
+    "status": "カード出典",
+    "cards": [
+      "frame-rate-or-simulation",
+      "tuning-or-hardcode"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "085",
+    "source": "planning.md",
+    "title": "自然なチュートリアル【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "tutorial-or-practice"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "086",
+    "source": "gameplay.md",
+    "title": "落ちものパズルのゲーム性【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "risk-reward-proximity"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "087",
+    "source": "misc.md",
+    "title": "マスターアップ【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "完成時の感情についての話。終了条件や品質基準の規則にしない。"
+  },
+  {
+    "number": "088",
+    "source": "team.md",
+    "title": "10人チームは7人分【チーム運営】",
+    "status": "カード出典",
+    "cards": [
+      "scope-or-quality"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "089",
+    "source": "sound.md",
+    "title": "音はフィクション、ノンフィクション【サウンド】",
+    "status": "カード出典",
+    "cards": [
+      "sound-realism-or-impact"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "090",
+    "source": "graphics.md",
+    "title": "レタッチ監修【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "visual-direction-or-rework"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "091",
+    "source": "motion.md",
+    "title": "情報が減るからおおげさにふるまう【モーション】",
+    "status": "カード出典",
+    "cards": [
+      "pose-or-anatomy"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "092",
+    "source": "concepts.md",
+    "title": "そだてて!甲虫王者ムシキング【企画コンセプト】",
+    "status": "カード出典",
+    "cards": [
+      "progression-rewards"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "093",
+    "source": "ui.md",
+    "title": "文字強調【UI】",
+    "status": "カード出典",
+    "cards": [
+      "localization-or-layout"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "094",
+    "source": "tech.md",
+    "title": "チケットでタスク管理【プログラム・テクニカル】",
+    "status": "カード出典",
+    "cards": [
+      "communication-or-focus",
+      "lock-or-merge"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "095",
+    "source": "planning.md",
+    "title": "ほめてやれ!【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "reward-feedback"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "096",
+    "source": "misc.md",
+    "title": "ファミリーコンピュータ【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "ファミコンの歴史。現行機の性能上限とは別の資料。"
+  },
+  {
+    "number": "097",
+    "source": "gameplay.md",
+    "title": "やられるとスッキリする?【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "retry-or-consequence"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "098",
+    "source": "mindset.md",
+    "title": "なぜコラムを続けられたのか【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "effort-or-sustainability"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "100",
+    "source": "misc.md",
+    "title": "初代『星のカービィ』開発秘話【雑談】",
+    "status": "カード出典",
+    "cards": [
+      "start-or-prepare"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "101",
+    "source": "pr.md",
+    "title": "製品像は正しく伝える【広報】",
+    "status": "カード出典",
+    "cards": [
+      "show-gameplay"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "102",
+    "source": "specs.md",
+    "title": "ガケぎわのふるまい【仕様】",
+    "status": "カード出典",
+    "cards": [
+      "jump-or-commitment"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "103",
+    "source": "effects.md",
+    "title": "画面振動【エフェクト】",
+    "status": "カード出典",
+    "cards": [
+      "shake-or-comfort"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "104",
+    "source": "planning.md",
+    "title": "ノーリアクションを排除せよ【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "standard-or-custom-input"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "105",
+    "source": "gameplay.md",
+    "title": "単調な坂は山登りにならない【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "goal-and-pacing"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "106",
+    "source": "motion.md",
+    "title": "ポージングのススメ【モーション】",
+    "status": "カード出典",
+    "cards": [
+      "pose-or-anatomy"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "107",
+    "source": "sound.md",
+    "title": "音声収録【サウンド】",
+    "status": "カード出典",
+    "cards": [
+      "sound-priority-or-density"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "108",
+    "source": "concepts.md",
+    "title": "大乱闘スマッシュブラザーズX【企画コンセプト】",
+    "status": "カード出典",
+    "cards": [
+      "scope-or-quality"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "109",
+    "source": "mindset.md",
+    "title": "プランBに頼るな【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "explore-or-commit"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "110",
+    "source": "misc.md",
+    "title": "開発中止【雑談】",
+    "status": "カード出典",
+    "cards": [
+      "scope-or-quality"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "111",
+    "source": "ui.md",
+    "title": "メニューは世界を語る【UI】",
+    "status": "カード出典",
+    "cards": [
+      "style-or-clarity"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "112",
+    "source": "mindset.md",
+    "title": "価値観の幹と枝先【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "market-data-or-concept"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "113",
+    "source": "planning.md",
+    "title": "ゲームのシナリオは特異【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "scenario-or-play-consistency"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "114",
+    "source": "graphics.md",
+    "title": "ドット絵の初歩的な話【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "material-or-final-image"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "115",
+    "source": "misc.md",
+    "title": "PRESS START【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "コンサートの運営事例。演奏と映像の配分を全ゲームへ移さない。"
+  },
+  {
+    "number": "116",
+    "source": "gameplay.md",
+    "title": "リトライは迅速に【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "retry-or-consequence"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "117",
+    "source": "tech.md",
+    "title": "ファミリーベーシック【プログラム・テクニカル】",
+    "status": "カード出典",
+    "cards": [
+      "start-or-prepare"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "118",
+    "source": "specs.md",
+    "title": "マップもゲーム画面【仕様】",
+    "status": "カード出典",
+    "cards": [
+      "camera-or-navigation"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "119",
+    "source": "planning.md",
+    "title": "応援する楽しみ【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "ranking-or-belonging"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "120",
+    "source": "motion.md",
+    "title": "扁平スケーリング【モーション】",
+    "status": "カード出典",
+    "cards": [
+      "blend-or-snap"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "121",
+    "source": "pr.md",
+    "title": "体験版【広報】",
+    "status": "カード出典",
+    "cards": [
+      "demo-or-main"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "122",
+    "source": "team.md",
+    "title": "日報のすすめ【チーム運営】",
+    "status": "カード出典",
+    "cards": [
+      "communication-or-focus"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "123",
+    "source": "misc.md",
+    "title": "こどものころのゲームの話【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "子供時代の体験談。現在の企画手順を確定する資料ではない。"
+  },
+  {
+    "number": "124",
+    "source": "concepts.md",
+    "title": "新･光神話パルテナの鏡【企画コンセプト】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "特定ハードと対象者に合わせた作品事例。操作・カメラ・物語を横断して追加参照する。"
+  },
+  {
+    "number": "125",
+    "source": "mindset.md",
+    "title": "インプットを太く､アウトプットも太く【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "effort-or-sustainability"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "126",
+    "source": "sound.md",
+    "title": "アレンジの手法【サウンド】",
+    "status": "カード出典",
+    "cards": [
+      "music-tempo-or-identity"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "127",
+    "source": "gameplay.md",
+    "title": "やり直しに見合う魅力はあるか？【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "retry-or-consequence",
+      "goal-and-pacing"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "128",
+    "source": "planning.md",
+    "title": "3Dゲームで酔う場合【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "shake-or-comfort",
+      "impact-and-tempo"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "129",
+    "source": "graphics.md",
+    "title": "タッチを合わせる【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "coherent-art-style"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "130",
+    "source": "effects.md",
+    "title": "ヒットマーク【エフェクト】",
+    "status": "カード出典",
+    "cards": [
+      "effect-impact-or-visibility"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "131",
+    "source": "misc.md",
+    "title": "『スマブラX』の組閣【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "チーム結成と属人性の背景。組織形態を一律に指定しない。"
+  },
+  {
+    "number": "132",
+    "source": "ui.md",
+    "title": "色による区分【UI】",
+    "status": "カード出典",
+    "cards": [
+      "label-or-symbol"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "133",
+    "source": "gameplay.md",
+    "title": "シューティングゲームのゲーム性【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "risk-reward-proximity"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "134",
+    "source": "concepts.md",
+    "title": "大乱闘スマッシュブラザーズ for 3DS / Wii U【企画コンセプト】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "携帯機と据置機の同時制作事例。共有率や工数を他案件へ固定しない。"
+  },
+  {
+    "number": "135",
+    "source": "team.md",
+    "title": "デバッグは終わらない【チーム運営】",
+    "status": "カード出典",
+    "cards": [
+      "exhaustive-or-targeted"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "136",
+    "source": "graphics.md",
+    "title": "アニメと実写が戦うような【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "coherent-art-style"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "137",
+    "source": "misc.md",
+    "title": "ガイドライン【雑談】",
+    "status": "カード出典",
+    "cards": [
+      "standard-or-exception"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "138",
+    "source": "misc.md",
+    "title": "桜井政博のゲーム作るには 紹介映像",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "チャンネル紹介映像。要約に独立した制作判断の説明がない。"
+  },
+  {
+    "number": "139",
+    "source": "specs.md",
+    "title": "想定外の完成形【仕様】",
+    "status": "カード出典",
+    "cards": [
+      "frame-rate-or-simulation"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "140",
+    "source": "motion.md",
+    "title": "ダメージモーション【モーション】",
+    "status": "カード出典",
+    "cards": [
+      "pose-or-anatomy"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "141",
+    "source": "pr.md",
+    "title": "ウェブサイト【広報】",
+    "status": "カード出典",
+    "cards": [
+      "presentation-or-catalog"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "142",
+    "source": "mindset.md",
+    "title": "内圧をカンカンに高める【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "private-idea-or-public-update"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "143",
+    "source": "tech.md",
+    "title": "『スマブラ』のふっとばし【プログラム・テクニカル】",
+    "status": "カード出典",
+    "cards": [
+      "tuning-or-hardcode"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "144",
+    "source": "sound.md",
+    "title": "原曲がすべて正しい【サウンド】",
+    "status": "カード出典",
+    "cards": [
+      "music-tempo-or-identity"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "145",
+    "source": "ui.md",
+    "title": "大事なものをより大きく【UI】",
+    "status": "カード出典",
+    "cards": [
+      "label-or-symbol",
+      "localization-or-layout"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "146",
+    "source": "gameplay.md",
+    "title": "ゲーム性を上げると、一般性が下がる【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "difficulty-or-assistance"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "147",
+    "source": "misc.md",
+    "title": "レアものご紹介【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "収集品の紹介。要約に独立した制作判断の説明がない。"
+  },
+  {
+    "number": "148",
+    "source": "motion.md",
+    "title": "モーション補間のワナ【モーション】",
+    "status": "カード出典",
+    "cards": [
+      "blend-or-snap"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "149",
+    "source": "planning.md",
+    "title": "見返りを想定する【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "progression-rewards"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "150",
+    "source": "graphics.md",
+    "title": "絵はゲームの楽しさに関係ある?【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "market-data-or-concept"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "151",
+    "source": "effects.md",
+    "title": "ビルボード【エフェクト】",
+    "status": "カード出典",
+    "cards": [
+      "particles-or-authored-shape"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "152",
+    "source": "specs.md",
+    "title": "はじき入力【仕様】",
+    "status": "カード出典",
+    "cards": [
+      "standard-or-custom-input"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "153",
+    "source": "misc.md",
+    "title": "ゲームセンターCXコラボ #1【スペシャル】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "対談・コラボ回。要約に独立した制作判断の説明がない。"
+  },
+  {
+    "number": "154",
+    "source": "misc.md",
+    "title": "ゲームセンターCXコラボ #2【スペシャル】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "対談・コラボ回。要約に独立した制作判断の説明がない。"
+  },
+  {
+    "number": "155",
+    "source": "misc.md",
+    "title": "ゲームセンターCXコラボ #3【スペシャル】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "対談・コラボ回。要約に独立した制作判断の説明がない。"
+  },
+  {
+    "number": "156",
+    "source": "mindset.md",
+    "title": "無意味な多数決【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "decide-or-investigate",
+      "authority-or-vote"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "157",
+    "source": "gameplay.md",
+    "title": "昇龍拳コマンド【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "standard-or-custom-input"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "158",
+    "source": "concepts.md",
+    "title": "大乱闘スマッシュブラザーズSPECIAL【企画コンセプト】",
+    "status": "カード出典",
+    "cards": [
+      "explore-or-commit",
+      "sequel-or-new"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "159",
+    "source": "planning.md",
+    "title": "あるものでしかわからない【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "original-or-familiar"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "160",
+    "source": "team.md",
+    "title": "会社でゲームを作ること【チーム運営】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "会社による役割分担と支援の背景。就業形態の優劣や売上原因を確定しない。"
+  },
+  {
+    "number": "161",
+    "source": "pr.md",
+    "title": "参戦ムービー【広報】",
+    "status": "カード出典",
+    "cards": [
+      "presentation-or-catalog"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "162",
+    "source": "planning.md",
+    "title": "続編のありかた【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "sequel-or-new"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "163",
+    "source": "graphics.md",
+    "title": "監修あれこれ【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "visual-direction-or-rework",
+      "hitbox-or-image"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "164",
+    "source": "motion.md",
+    "title": "フェイシャル【モーション】",
+    "status": "カード出典",
+    "cards": [
+      "pose-or-anatomy"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "165",
+    "source": "sound.md",
+    "title": "アタック強め、残響ほどほど【サウンド】",
+    "status": "カード出典",
+    "cards": [
+      "sound-realism-or-impact"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "166",
+    "source": "misc.md",
+    "title": "ゲーム&ウオッチのスクリーン【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "過去の機器の紹介。現行機の画面仕様に直接当てはめない。"
+  },
+  {
+    "number": "167",
+    "source": "ui.md",
+    "title": "高速に選びたい【UI】",
+    "status": "カード出典",
+    "cards": [
+      "standard-or-custom-input"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "168",
+    "source": "gameplay.md",
+    "title": "ランキングの功罪【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "ranking-or-belonging"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "169",
+    "source": "mindset.md",
+    "title": "暗示の力【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "effort-or-sustainability"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "170",
+    "source": "tech.md",
+    "title": "多くの人がファイルをいじる方法【プログラム・テクニカル】",
+    "status": "カード出典",
+    "cards": [
+      "lock-or-merge"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "171",
+    "source": "specs.md",
+    "title": "How to Play【仕様】",
+    "status": "カード出典",
+    "cards": [
+      "tutorial-or-practice"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "172",
+    "source": "graphics.md",
+    "title": "ミニチュア効果【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "material-or-final-image"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "173",
+    "source": "planning.md",
+    "title": "知っていることは話が早い【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "standard-or-custom-input",
+      "standard-or-exception"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "174",
+    "source": "misc.md",
+    "title": "制作者も変わっていく【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "制作者の変化についての雑談。要約に独立した判断条件がない。"
+  },
+  {
+    "number": "175",
+    "source": "team.md",
+    "title": "その日のうちに全てこなす【チーム運営】",
+    "status": "カード出典",
+    "cards": [
+      "communication-or-focus"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "176",
+    "source": "gameplay.md",
+    "title": "遊びって、何？【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "risk-or-other-appeal"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "177",
+    "source": "effects.md",
+    "title": "風切り【エフェクト】",
+    "status": "カード出典",
+    "cards": [
+      "effect-impact-or-visibility"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "178",
+    "source": "ui.md",
+    "title": "必ず飛ばせるように、止められるように【UI】",
+    "status": "カード出典",
+    "cards": [
+      "story-or-control",
+      "standard-or-exception"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "179",
+    "source": "motion.md",
+    "title": "フリップモーション【モーション】",
+    "status": "カード出典",
+    "cards": [
+      "pose-or-anatomy"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "180",
+    "source": "planning.md",
+    "title": "カスタマイズは想像で遊ぶ【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "customization-preview"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "181",
+    "source": "misc.md",
+    "title": "大昔、数字でドット絵を描いていた【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "過去の作画作業の紹介。現在の制作ツールの必須方式にしない。"
+  },
+  {
+    "number": "182",
+    "source": "graphics.md",
+    "title": "アナログな色合い統一【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "material-or-final-image"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "183",
+    "source": "sound.md",
+    "title": "効果音の指示【サウンド】",
+    "status": "カード出典",
+    "cards": [
+      "sound-reference-or-fixation"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "184",
+    "source": "pr.md",
+    "title": "ゲーム画面を見せてくれ!【広報】",
+    "status": "カード出典",
+    "cards": [
+      "prototype-or-pv",
+      "show-gameplay"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "185",
+    "source": "mindset.md",
+    "title": "コンセプトは貫くもの【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "concept-or-change"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "186",
+    "source": "gameplay.md",
+    "title": "キャラゲームはらしさが第一【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "coherent-art-style"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "187",
+    "source": "specs.md",
+    "title": "ランダム性は彩りを添える【仕様】",
+    "status": "カード出典",
+    "cards": [
+      "randomness-and-handicap"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "188",
+    "source": "misc.md",
+    "title": "プレゼントを遊びに【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "スタッフ向け余興の例。全チームへのイベント義務にしない。"
+  },
+  {
+    "number": "189",
+    "source": "team.md",
+    "title": "決断を先送りにするな【チーム運営】",
+    "status": "カード出典",
+    "cards": [
+      "decide-or-investigate"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "190",
+    "source": "graphics.md",
+    "title": "モーションブラー【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "shake-or-comfort"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "191",
+    "source": "gameplay.md",
+    "title": "アクションゲームのゲーム性【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "risk-reward-proximity"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "192",
+    "source": "motion.md",
+    "title": "モーションブレンド【モーション】",
+    "status": "カード出典",
+    "cards": [
+      "blend-or-snap"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "193",
+    "source": "tech.md",
+    "title": "デバッグモード【プログラム・テクニカル】",
+    "status": "カード出典",
+    "cards": [
+      "debug-tools-or-content"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "194",
+    "source": "planning.md",
+    "title": "同じような作品【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "original-or-familiar"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "195",
+    "source": "ui.md",
+    "title": "ボタン設定【UI】",
+    "status": "カード出典",
+    "cards": [
+      "standard-or-custom-input"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "196",
+    "source": "mindset.md",
+    "title": "競争と豊穣【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "market-data-or-concept"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "197",
+    "source": "misc.md",
+    "title": "誰の足跡も無い世界【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "雑談回。要約に独立した判断条件がない。"
+  },
+  {
+    "number": "198",
+    "source": "planning.md",
+    "title": "スコアの見せかた【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "reward-feedback"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "199",
+    "source": "effects.md",
+    "title": "効果は正しい大きさ感で【エフェクト】",
+    "status": "カード出典",
+    "cards": [
+      "effect-impact-or-visibility"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "200",
+    "source": "specs.md",
+    "title": "ハンデブースト【仕様】",
+    "status": "カード出典",
+    "cards": [
+      "randomness-and-handicap"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "201",
+    "source": "gameplay.md",
+    "title": "作業ゲームを面白くするには【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "risk-or-other-appeal"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "202",
+    "source": "sound.md",
+    "title": "環境音のバランス【サウンド】",
+    "status": "カード出典",
+    "cards": [
+      "sound-priority-or-density"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "203",
+    "source": "graphics.md",
+    "title": "無いものをあると感じさせる【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "material-or-final-image"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "204",
+    "source": "planning.md",
+    "title": "パラメーターでキャラ立ちを【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "asymmetry-or-balance"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "205",
+    "source": "pr.md",
+    "title": "人の目の前でゲームすること【広報】",
+    "status": "カード出典",
+    "cards": [
+      "presentation-or-catalog"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "206",
+    "source": "team.md",
+    "title": "デバッグの体制【チーム運営】",
+    "status": "カード出典",
+    "cards": [
+      "exhaustive-or-targeted",
+      "lock-or-merge"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "207",
+    "source": "misc.md",
+    "title": "伝説の1986年【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "過去作品の歴史紹介。現在の制作条件とは分ける。"
+  },
+  {
+    "number": "208",
+    "source": "motion.md",
+    "title": "指の表現【モーション】",
+    "status": "カード出典",
+    "cards": [
+      "animation-spec-or-freedom"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "209",
+    "source": "ui.md",
+    "title": "テキストの読み進め【UI】",
+    "status": "カード出典",
+    "cards": [
+      "story-or-control"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "210",
+    "source": "mindset.md",
+    "title": "言ったことはそうなっていく【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "effort-or-sustainability"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "211",
+    "source": "gameplay.md",
+    "title": "クリアできないよりマシ【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "difficulty-or-assistance"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "212",
+    "source": "planning.md",
+    "title": "色が薄れた世界【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "detail-or-readability"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "213",
+    "source": "graphics.md",
+    "title": "最終出力【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "material-or-final-image"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "214",
+    "source": "misc.md",
+    "title": "収納のしかた【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "収納の雑談。要約に独立したゲーム制作判断がない。"
+  },
+  {
+    "number": "215",
+    "source": "tech.md",
+    "title": "透過機能【プログラム・テクニカル】",
+    "status": "カード出典",
+    "cards": [
+      "debug-tools-or-content"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "216",
+    "source": "specs.md",
+    "title": "平均と平凡は同じ【仕様】",
+    "status": "カード出典",
+    "cards": [
+      "asymmetry-or-balance"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "217",
+    "source": "gameplay.md",
+    "title": "強制感と攻略バランス【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "guided-or-free-route"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "218",
+    "source": "team.md",
+    "title": "モニタリングは果てなく続く【チーム運営】",
+    "status": "カード出典",
+    "cards": [
+      "playtest-evidence"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "219",
+    "source": "planning.md",
+    "title": "コンピュータープレイヤー【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "ai-fairness"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "220",
+    "source": "sound.md",
+    "title": "他の曲を例に挙げる場合【サウンド】",
+    "status": "カード出典",
+    "cards": [
+      "sound-reference-or-fixation"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "221",
+    "source": "effects.md",
+    "title": "フラッシング【エフェクト】",
+    "status": "カード出典",
+    "cards": [
+      "shake-or-comfort"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "222",
+    "source": "graphics.md",
+    "title": "カベ破壊ひとつに【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "visual-direction-or-rework"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "223",
+    "source": "motion.md",
+    "title": "攻撃判定を常に意識【モーション】",
+    "status": "カード出典",
+    "cards": [
+      "hitbox-or-image"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "224",
+    "source": "pr.md",
+    "title": "ターゲティングとマーケティング【広報】",
+    "status": "カード出典",
+    "cards": [
+      "market-data-or-concept"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "225",
+    "source": "misc.md",
+    "title": "生演奏でゲームプレイ【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "生演奏との組合せの雑談。要約に判断条件の説明がない。"
+  },
+  {
+    "number": "226",
+    "source": "mindset.md",
+    "title": "エコーチェンバー【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "playtest-evidence"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "227",
+    "source": "ui.md",
+    "title": "メニューにヘルプを【UI】",
+    "status": "カード出典",
+    "cards": [
+      "label-or-symbol"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "228",
+    "source": "gameplay.md",
+    "title": "戦略シミュレーションのゲーム性【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "asymmetry-or-balance"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "229",
+    "source": "specs.md",
+    "title": "オンラインアップデート【仕様】",
+    "status": "カード出典",
+    "cards": [
+      "exhaustive-or-targeted",
+      "exploit-or-bug"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "230",
+    "source": "graphics.md",
+    "title": "マンガ的表現【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "coherent-art-style"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "231",
+    "source": "planning.md",
+    "title": "ゲーム内ムービー【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "scenario-or-play-consistency",
+      "story-or-control"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "232",
+    "source": "team.md",
+    "title": "ディレクターとプロデューサー【チーム運営】",
+    "status": "カード出典",
+    "cards": [
+      "authority-or-vote"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "233",
+    "source": "planning.md",
+    "title": "最初にクライマックスを【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "story-or-control"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "234",
+    "source": "motion.md",
+    "title": "スケルトンの限界【モーション】",
+    "status": "カード出典",
+    "cards": [
+      "animation-spec-or-freedom"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "235",
+    "source": "mindset.md",
+    "title": "アイデアが出ないとき【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "explore-or-commit"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "236",
+    "source": "gameplay.md",
+    "title": "どれぐらい良いことをした？【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "risk-reward-proximity"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "237",
+    "source": "sound.md",
+    "title": "ファミコンの音源【サウンド】",
+    "status": "カード出典",
+    "cards": [
+      "sound-priority-or-density"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "238",
+    "source": "ui.md",
+    "title": "言語がなくてもわかるように【UI】",
+    "status": "カード出典",
+    "cards": [
+      "label-or-symbol",
+      "style-or-clarity"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "239",
+    "source": "misc.md",
+    "title": "なんでも対戦ゲーム【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "一人用ゲームを競争に変える個人的な遊び方の例。オンライン設計へ直結しない。"
+  },
+  {
+    "number": "240",
+    "source": "planning.md",
+    "title": "初心者にはやさしく、気持ちよく【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "playtest-evidence"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "241",
+    "source": "graphics.md",
+    "title": "キャラを立てるデザイン【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "coherent-art-style",
+      "pose-or-anatomy"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "242",
+    "source": "effects.md",
+    "title": "パーティクルの限界【エフェクト】",
+    "status": "カード出典",
+    "cards": [
+      "particles-or-authored-shape"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "243",
+    "source": "pr.md",
+    "title": "スマブラ拳【広報】",
+    "status": "カード出典",
+    "cards": [
+      "private-idea-or-public-update"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "244",
+    "source": "specs.md",
+    "title": "画面遷移は素早く【仕様】",
+    "status": "カード出典",
+    "cards": [
+      "loading-or-feedback",
+      "impact-and-tempo"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "245",
+    "source": "gameplay.md",
+    "title": "長所を伸ばし、短所も伸ばす【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "asymmetry-or-balance"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "246",
+    "source": "team.md",
+    "title": "小学生モニター【チーム運営】",
+    "status": "カード出典",
+    "cards": [
+      "playtest-evidence"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "247",
+    "source": "mindset.md",
+    "title": "絶対にケンカするな【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "communication-or-focus"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "248",
+    "source": "planning.md",
+    "title": "いただく時間を意識する【企画・ゲーム設計】",
+    "status": "カード出典",
+    "cards": [
+      "goal-and-pacing"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "249",
+    "source": "motion.md",
+    "title": "二軸で回転【モーション】",
+    "status": "カード出典",
+    "cards": [
+      "blend-or-snap"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "250",
+    "source": "misc.md",
+    "title": "ブラウン管【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "ブラウン管の歴史的特性。現在の安全領域や入力機器の規格を確定しない。"
+  },
+  {
+    "number": "251",
+    "source": "graphics.md",
+    "title": "監修あれこれ：ソラ編【グラフィック】",
+    "status": "カード出典",
+    "cards": [
+      "visual-direction-or-rework"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "252",
+    "source": "ui.md",
+    "title": "HUD【UI】",
+    "status": "カード出典",
+    "cards": [
+      "detail-or-readability"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "253",
+    "source": "specs.md",
+    "title": "重心をズラすとどうなる？【仕様】",
+    "status": "カード出典",
+    "cards": [
+      "blend-or-snap"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "254",
+    "source": "gameplay.md",
+    "title": "ハンデをつけてバランス調整【ゲーム性】",
+    "status": "カード出典",
+    "cards": [
+      "playtest-evidence"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "255",
+    "source": "sound.md",
+    "title": "名作に音が悪いものなし【サウンド】",
+    "status": "カード出典",
+    "cards": [
+      "sound-priority-or-density"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "256",
+    "source": "team.md",
+    "title": "ディレクターは切る仕事【チーム運営】",
+    "status": "カード出典",
+    "cards": [
+      "scope-or-quality"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "257",
+    "source": "misc.md",
+    "title": "岩田さんのこと【雑談】",
+    "status": "背景資料",
+    "cards": [],
+    "reason": "個人の思い出と姿勢の話。チームに強制する工程にはしない。"
+  },
+  {
+    "number": "258",
+    "source": "mindset.md",
+    "title": "上は下なり、下は上なり【仕事の姿勢】",
+    "status": "カード出典",
+    "cards": [
+      "authority-or-vote"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  },
+  {
+    "number": "259",
+    "source": "misc.md",
+    "title": "最終回スペシャル（チャンネルの作り方）",
+    "status": "カード出典",
+    "cards": [
+      "start-or-prepare"
+    ],
+    "reason": "該当カードの出典要約として明示。解釈と適用外はカード本文を確認する。"
+  }
+]
